@@ -12,8 +12,6 @@ import static org.hamcrest.CoreMatchers.is;
 
 public class CreateCourierErrorsTest {
 
-    protected CourierData courierData;
-    protected CourierApi courierApi;
     private final String CourierNamePrefix = "CourierError";
 
     @DisplayName("Check that it is impossible to create two identical couriers")

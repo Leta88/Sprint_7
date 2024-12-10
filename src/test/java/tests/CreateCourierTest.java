@@ -69,10 +69,5 @@ public class CreateCourierTest {
                 .assertThat()
                 .statusCode(HttpStatus.SC_CREATED)
                 .body("ok", is(true));
-//        response.log().all()
-//            .statusCode(HTTP_OK)
-//                .assertThat()
-//                .body(notNullValue());
-
     }
 }
